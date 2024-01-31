@@ -12,6 +12,7 @@ import {
 
 const Footer = () => {
 	return (
+		<>
 		<Box>
 			<h1
 				style={{
@@ -50,6 +51,7 @@ const Footer = () => {
 						<FooterLink href="#">
                             Guidence
 						</FooterLink>
+						
 					</Column>
 					<Column>
 						<Heading>Contact Us</Heading>
@@ -112,8 +114,11 @@ const Footer = () => {
 						</FooterLink>
 					</Column>
 				</Row>
+				<h3 className="copy">copyright &copy; 2024 FunstationGames | All Rights Reserved</h3>
 			</FooterContainer>
 		</Box>
+		
+		</>
 	);
 };
 export default Footer;

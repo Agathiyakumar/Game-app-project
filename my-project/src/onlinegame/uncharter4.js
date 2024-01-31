@@ -7,10 +7,10 @@ return(
     <>
     <div className="uncharterback">
     <Card className="uncharter">
-      <Card.Img  src="https://images.thequint.com/thequint%2F2016-03%2Fbbd5b7b4-8170-4293-aefc-49c35e4007ad%2FUncharted-4.jpg?rect=0%2C0%2C2000%2C1125" width='800px' />
+      <Card.Img className="uncharterimg" src="https://images.thequint.com/thequint%2F2016-03%2Fbbd5b7b4-8170-4293-aefc-49c35e4007ad%2FUncharted-4.jpg?rect=0%2C0%2C2000%2C1125" width='800px' />
       <Card.Body>
-        <Card.Text className="unchartercontent">
-          <p>
+        <Card.Text >
+          <p className="unchartercontent">
             <h2>Developer(s) :	Naughty Dog[a]</h2>
             <h2>Publisher(s) :	Sony Computer Entertainment[b]</h2>
             <h2>Director(s)	 :  Bruce Straley , Neil Druckmann</h2>

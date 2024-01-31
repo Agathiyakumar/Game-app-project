@@ -8,10 +8,10 @@ return(
     <div className="pubgback">
       <div className='pubg1'>
     <Card className="pubg">
-      <Card.Img  src="https://wstatic-prod.pubg.com/web/live/static/og/img-og-pubg.jpg" width='800px' />
+      <Card.Img className='pubgimg' src="https://wstatic-prod.pubg.com/web/live/static/og/img-og-pubg.jpg" width="482px" />
       <Card.Body>
-        <Card.Text className="pubgcontent">
-          <p>
+        <Card.Text >
+          <p className="pubgcontent">
             <h2>Game Name : PUBG</h2>
             <h2>Publishers &nbsp;&nbsp;: Tencent Games,Krafton,Microsoft Studios (Xbox One)</h2>
             <h2>Developer(s) : PUBG Studios[c]</h2>

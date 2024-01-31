@@ -7,10 +7,10 @@ return(
     <>
     <div className="godback">
     <Card className="god">
-      <Card.Img  src="https://image.api.playstation.com/vulcan/img/rnd/202010/2217/5gDpzRQrhlcegaPf8wW1QIuf.png" width='800px' />
+      <Card.Img className="godimg" src="https://image.api.playstation.com/vulcan/img/rnd/202010/2217/5gDpzRQrhlcegaPf8wW1QIuf.png" width='800px' />
       <Card.Body>
-        <Card.Text className="godcontent">
-          <p>
+        <Card.Text >
+          <p className="godcontent">
             <h2>Game Name : GOD OF WARS</h2>
             <h2>Publishers &nbsp;&nbsp;: 	Sony Interactive Entertainment[i],Sony Pictures Digital[j] (Xbox One)</h2>
             <h2>Developer(s) : 	Primary:-Santa Monica Studio[a],Ready at Dawn[b],Javaground/SOE-LA[c]</h2>

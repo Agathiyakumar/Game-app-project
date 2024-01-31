@@ -1,7 +1,7 @@
 .Home{
  padding: 50px 30px;
   background-repeat: no-repeat;
-
+  width: 100%;
   background-size:cover ;  
  background-color: #000000;
   background-blend-mode: lighten;
@@ -10,22 +10,24 @@
   border-color: rgb(72, 255, 0);
   border-radius: 0px;
   border-width: thick;
-  @media screen {min-width: 380px;
+  @media only screen and (min-width: 380px){
     flex-direction: column;
   }
 }
 .hlogo{
   margin-bottom: 45px;
-  margin-left: 40px;
+  margin-left: 50px;
+
+  
 }
 .hlogo1{
-  margin-left: 65px;
+  margin-left: 70px;
   margin-bottom: 45px;
 }
 
 .wel{
   margin-top: 50px;
-
+  font-family: serif;
   margin-left: 1100px;
   margin-right: 0px;
   text-align: bottom;
@@ -140,8 +142,6 @@
 
 
 .pubgback{
-  background-image: url("./images/pubgbg.jpg");
-  
   display: flex;
   background-size:cover ;
   @media screen {min-width: 380px;
@@ -149,56 +149,66 @@
   }
 }
 .pubg{
-  background-color: rgb(20, 20, 20);
-  width: 800px;
-  height: 1160px;
-  margin-top: 20px;
-  margin-left: 280px;
-  margin-bottom: 20px;
-  
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
 }
+.pubgimg{
+ width: 100%;
+ height: auto;
+}
+
 .pubgcontent{
-  color: white;
-  padding-left: 10px;
+  color: rgb(0, 0, 0);
+
 }
 .pubglink{
   font-size: 20px;
   color: green;
+  align-items: center;
 }
 .godback{
-  background-image: url("./images/godback.jpg");
   display: flex;
   background-size:cover ;
+  @media screen {min-width: 380px;
+    flex-direction: column;
+  }
 }
 
 .god{
-  background-color: rgb(20, 20, 20);
-  width: 800px;
-  height: 1100px;
-  margin-top: 20px;
-  margin-left: 280px;
-  margin-bottom: 20px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.godimg{
+  width: 100%;
+  height: auto;
 }
 .godcontent{
-  color: white;
-  padding-left: 10px;
+  color: rgb(0, 0, 0);
 }
 .uncharterback{
-  background-image: url("./images/unchaterbg.jpg");
   display: flex;
   background-size:cover ;
+  @media screen {min-width: 380px;
+    flex-direction: column;
+  }
+}
+.uncharterimg{
+  width: 100%;
+  height: auto;
 }
 .uncharter{
-  background-color: rgb(20, 20, 20);
-  width: 800px;
-  height: 1100px;
-  margin-top: 20px;
-  margin-left: 280px;
-  margin-bottom: 20px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 .unchartercontent{
-  color: white;
-  padding-left: 10px;
+  color: rgb(0, 0, 0);
 }
 
 .card1{
@@ -349,14 +359,10 @@ input[type="submit"]:hover {
  
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 margin-top: 550px;
-font-size: 20px;
-margin-right:   0px;
+margin-right: 0px;
 margin-left: 1px;
-&:hover{
+text-align: center;
   color: #ffffff;
-  background-color: rgb(0, 0, 0);
-
-}
 }
 
 /*card*/
@@ -578,7 +584,7 @@ margin-left: 1px;
 
 .container .box .content a:hover
 {
-  background: #ffcf4d;
+  background: #9b2f05;
   border: 1px solid rgba(255, 0, 88, 0.4);
   box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
 }
@@ -599,3 +605,139 @@ margin-left: 1px;
     box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
   }
 } 
+.Action{
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/1585.jpg");
+  background-repeat: no-repeat;
+  background-size:cover ;
+  display: flex;
+  padding: 50px 100px;
+}
+
+.card-text{
+  margin-left: 50px;
+  color: white;
+}
+.Admin{
+  display: flex;
+  background-color: #252121;
+}
+.container-fluid{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.creatorimg {
+  --color: #FA6900; /* the color of the border */
+  --border: 10px;   /* the thickness of the border */
+  --offset: 30px;   /* control the movement of the border */
+  --gap: 5px;       /* the gap on hover */
+  margin-left: 115px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: calc(var(--border) + var(--gap));
+  border: var(--offset) solid #0000;
+  --_m: radial-gradient(50% 50%, #000 calc(100% - var(--offset)),#0000 calc(100% - var(--border)));
+  -webkit-mask: var(--_m);
+          mask: var(--_m);
+  --_g: #0000 calc(99% - var(--border)), var(--color) calc(100% - var(--border)) 99%,#0000;
+  --_s: var(--offset);
+  --_r: 100% 100% at;
+  background:
+    radial-gradient(var(--_r) 0    0   ,var(--_g)) calc(100% + var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 100% 0   ,var(--_g)) calc(0%   - var(--_s)) calc(100% + var(--_s)),
+    radial-gradient(var(--_r) 0    100%,var(--_g)) calc(100% + var(--_s)) calc(0%   - var(--_s)),
+    radial-gradient(var(--_r) 100% 100%,var(--_g)) calc(0%   - var(--_s)) calc(0%   - var(--_s));
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+.creatorimg:hover {
+  --_s: 0px
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+* {
+	box-sizing: border-box;
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 90deg;
+  inherits: true;
+}
+
+@property --gradX {
+  syntax: '<percentage>';
+  initial-value: 50%;
+  inherits: true;
+}
+
+@property --gradY {
+  syntax: '<percentage>';
+  initial-value: 0%;
+  inherits: true;
+}
+.creatorp {
+	margin: 0;
+}
+
+:root {
+	--d: 2500ms;
+	--angle: 90deg;
+	--gradX: 100%;
+	--gradY: 50%;
+	--c1: rgba(168, 239, 255, 1);
+	--c2: rgba(168, 239, 255, 0.1);
+}
+
+.creatorwrapper {
+	min-width: min(40rem, 100%);
+}
+
+.creatorbox {
+	font-size: 3vw;
+	margin: max(1rem, 3vw);
+	border: 0.35rem solid;
+	padding: 3vw;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards;
+}
+@keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+} 
+.copy{
+  color: white;
+  text-align:center;
+  margin-top: 50px;
+  background-color: #252121;
+}

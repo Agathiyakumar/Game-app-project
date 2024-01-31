@@ -26,13 +26,13 @@ export const NavLink = styled(Link)`
     cursor: pointer;
     margin-right:40px;
     &.active{
-        text-decoration:underline;
-        text-decoration-color:blue;
+        color:red;
        
-       border-color:yellow;
+       
     }
     &:hover{
-        background-color:blue;
+        background-color:rgb(72, 255, 0);
+        color:black;
     }
    
 `;
