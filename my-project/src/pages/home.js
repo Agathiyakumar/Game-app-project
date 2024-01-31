@@ -26,7 +26,7 @@ const Home =()=>{
 
         <div className="creators">
         <img className="creatorimg" src="https://cdns-images.dzcdn.net/images/artist/b9e931b12e626ad72990763df6ce0ad0/500x500-000000-80-0-0.jpg" height="280" width="300" />
-<img className="creatorimg" src={abdul} height="280" width="300"/>
+<img className="creatorimg" src={""} height="280" width="300"/>
 <img className="creatorimg" src="https://venturebeat.com/wp-content/uploads/2011/05/seamus-blackley.jpg?resize=300%2C363&strip=all" height="280" width="300"/>
         </div>
 
