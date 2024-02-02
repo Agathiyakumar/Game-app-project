@@ -1,12 +1,13 @@
-// components/FooterStyles.js
+
 
 import styled from "styled-components";
 
 export const Box = styled.div`
-	padding: 5% 2.5%;
-	background: black;
+	padding: 1% 1%;
+	background: white;
 	// position: absolute;
-	
+	border-style: solid;
+    border-color: black;
 	width: 100%;
     align-items:bottom;
 	@media (max-width: 1000px) {
@@ -53,7 +54,7 @@ export const FooterLink = styled.a`
 	margin-bottom: 20px;
 	font-size: 18px;
 	text-decoration: none;
-
+    color:black;
 	&:hover {
 		color: green;
 		transition: 200ms ease-in;

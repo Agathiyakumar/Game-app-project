@@ -11,6 +11,7 @@ return(
                 <div class="card-horizontal">
                     <div class="img-square-wrapper">
                         <img class="" src="https://4kwallpapers.com/images/walls/thumbs_2t/1585.jpg" alt="Card image cap" width="300" height="180"/>
+                    
                     </div>
                     <div class="card-body">
                        

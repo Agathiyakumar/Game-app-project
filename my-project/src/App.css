@@ -1,83 +1,35 @@
 .Home{
- padding: 50px 30px;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size:cover ;  
- background-color: #000000;
-  background-blend-mode: lighten;
-  display: flex;
-  border-style: double;
-  border-color: rgb(72, 255, 0);
-  border-radius: 0px;
-  border-width: thick;
-  @media only screen and (min-width: 380px){
-    flex-direction: column;
-  }
-}
-.hlogo{
-  margin-bottom: 45px;
-  margin-left: 50px;
 
+  background-color: #ffffff;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23000000' fill-opacity='0.14' fill-rule='evenodd'/%3E%3C/svg%3E");
+@media screen {min-width: 380px;
+  flex-direction: column;
+}
+}
+  .welcome{
+ 
+ padding-right: 50px;
+  padding-top: 150px;
   
 }
-.hlogo1{
-  margin-left: 70px;
-  margin-bottom: 45px;
-}
-
 .wel{
-  margin-top: 50px;
-  font-family: serif;
-  margin-left: 1100px;
-  margin-right: 0px;
-  text-align: bottom;
-  font-style: italic;
-  font-size: 60px;
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
- 
-  @media screen {min-width: 380px;
-    flex-direction: column;
-    
-  }
- 
-}
-
-#slide {
-  background-color: #000000;
+  font-size: 7vw;
+  padding-left: 150px;
   
-  position: absolute;
-  left: -1350px;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 1.0s forwards;
-  animation-delay: 0.5s;
-
+}
+.wel::first-letter{
+  color: #ff0000;
+  font-size: 150px;
+}
+.wel1{
+  padding-left: 100px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@-webkit-keyframes slide {
-  100% { left: 0; }
-}
-
-@keyframes slide {
-  100% { left: 0; }
-}
-.fun{
-  text-align: bottom  ;
-  font-style: oblique;
-  font-size: 40px;
-  color: grey;
-}
-
-.onlinetitle{
-  font-size: 40px;
-}
-
-.info1{
-  font-size: 15px;
-}
 .about{
-  background-image: url("images/abg.jpg");
+  background-image: url("https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg");
+
   background-repeat: no-repeat;
   background-size:cover ;  
   
@@ -95,7 +47,7 @@
   width: 400px;
   height: 300px;
   perspective: 1000px; 
-  opacity: 0.8;
+  opacity: 0.7;
   border-radius: 50%;
  
 }
@@ -121,10 +73,10 @@
 }
 .flip-card-front {
   background-color: #bbb;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .flip-card-back {
-  opacity: 0.9;
+  opacity: 1;
   background-color: rgb(22, 21, 22);
   color: white;
   transform: rotateY(180deg);
@@ -214,14 +166,14 @@
 .card1{
   text-align: left;
   margin-top: 77px;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgb(197, 197, 197);
+  opacity: 0.5;
   height: 300px;
 }
 .abtcontent{
   margin-left: 20px;
   margin-left: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
@@ -245,8 +197,7 @@
 }
 .gamegenre{
   margin-left: 1rem;
-  color: rgb(145, 0, 133);
-  text-decoration: underline;
+  color: rgb(0, 0, 0);
 }
 
 /*login*/
@@ -259,7 +210,8 @@
   gap: 20px;
   height: 100vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  background-image: url("./images/abg.jpg");
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23000000' fill-opacity='0.75' fill-rule='evenodd'/%3E%3C/svg%3E");
+  
 }
 
 input[type="text"],
@@ -615,11 +567,14 @@ text-align: center;
 
 .card-text{
   margin-left: 50px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .Admin{
   display: flex;
-  background-color: #252121;
+  background-repeat: no-repeat;
+  background-size:cover ;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23000000' fill-opacity='0.75' fill-rule='evenodd'/%3E%3C/svg%3E");
+
 }
 .container-fluid{
   margin-top: 100px;
@@ -740,4 +695,72 @@ text-align: center;
   text-align:center;
   margin-top: 50px;
   background-color: #252121;
+}
+.cardhome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+  margin-top: 450px;
+}
+.arrowbtn{
+  border-radius: 50%;
+  width: 70px;
+  height: 60px;
+  font-size: 2vw;
+  &:hover{
+    transition: 200ms ease-in;
+    background-image:linear-gradient(black,grey);
+    color: white;
+  }
+}
+.arbtn{
+  padding: 50px 200px;
+}
+
+.click{
+font-size: 2vw;
+}
+.mostex{
+  text-align: right;
+  padding-right: 60px;
+  
+}
+.mostex1::first-letter{
+  color: green;
+  font-family: Garamond, serif;
+  font-size: 80px;
+}
+.description1{
+  text-align: right;
+  padding-right: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 20px;
+}
+
+.parent {
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.esport {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.esportimg{
+  box-shadow: 10px 10px 5px #282727;
+      -moz-box-shadow: 10px 10px 5px #2a2727;
+      -webkit-box-shadow: 10px 10px 5px #322d2d;
+      -khtml-box-shadow: 10px 10px 5px #2f2c2c;
+}
+.ehead{
+  font-size: 4vw;
+  padding-right: 300px;
+}
+.ehead::first-letter{
+  font-size: 5vw;
+  color: blue;
 }

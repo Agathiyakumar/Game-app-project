@@ -7,7 +7,7 @@ import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons/lib";
 import SubMenu from "./SubMenu";
 const Nav = styled.div`
-	background: black;
+background-image: linear-gradient( white, grey);
 	height: 80px;
 	display: flex;
 	justify-content: flex-start;
@@ -26,15 +26,16 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
 	margin-top:140px;
-	background: black;
+	background-image: linear-gradient( white, black);
 	width: 200px;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
+	position:absolute;
 	position: fixed;
 	top: 0;
 	left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-	transition: 350ms;
+	transition: 550ms;
 	z-index: 10;
 `;
 
@@ -44,24 +45,23 @@ const SidebarWrap = styled.div`
 
 const Sidebar = () => {
 	const [sidebar, setSidebar] = useState(false);
-
 	const showSidebar = () => setSidebar(!sidebar);
 
 	return (
 		<>
-			<IconContext.Provider value={{ color: "#fff" }}>
+			<IconContext.Provider value={{ color: "black" }}>
 				<Nav>
 					<NavIcon to="#">
 						<FaIcons.FaBars
 							onClick={showSidebar}
+							
 						/>
-						
 					</NavIcon>
 					<h1
 						style={{
 							textAlign: "center",
-							marginLeft: "130px",
-							color: "red",
+							marginLeft: "210px",
+							color: "black",
 						}}
 					>
 						FUNSTATION GAMES
@@ -73,8 +73,9 @@ const Sidebar = () => {
 							
 							<AiIcons.AiOutlineClose
 								onClick={showSidebar}
+								
 							/>
-							<h5 className="gamegenre">Game Genre</h5>
+							
 						</NavIcon>
 						{SidebarData.map((item, index) => {
                             return (
