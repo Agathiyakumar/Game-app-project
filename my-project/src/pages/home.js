@@ -26,18 +26,26 @@ const Home =()=>{
 <div className="description">
   <p className="description1"><h4>"Dive into a gaming haven at Funstation Games, where every click unlocks a <br></br>world of reviews, news, and exclusive insights. Immerse yourself in captivating <br></br>feature stories and join a vibrant community of like-minded gamers.</h4></p>
 </div>
-<div className="parent">
-  <div>
+<div>
     <h1 className="ehead">Esports</h1>
   </div>
+<div className="parent">
+<h1 className="esporthead">
+   >>>  Join the Esport's  >>>
+  </h1>
+  <h5 className="esporthead1"> Join our game website for a thrilling gaming experience, featuring competitive leagues, engaging tournaments, and a vibrant community. Level up your skills and connect with fellow gamers on our platform today!"</h5>
   <div className="esport">
+  
       <img className="esportimg" src={"https://c4.wallpaperflare.com/wallpaper/608/212/2/electronic-sports-league-esl-esport-esports-wallpaper-preview.jpg"} alt=".." width="100%" height="auto"/>
   </div>
   <div className="esport">
-    <button>Updates</button>
+  <button class="button-53" role="button">Updates</button>
+  <div className="esport">
+  <button class="button-52" role="button">Upcoming</button>
+  </div>
   </div>
 </div>
-
+<h1>hello</h1>
 
 
 
