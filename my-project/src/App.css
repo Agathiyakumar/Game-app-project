@@ -756,9 +756,9 @@ font-size: 2vw;
 .esportimg{
   padding-top: 20px;
   box-shadow: 10px 10px 5px #282727;
-      -moz-box-shadow: 10px 10px 5px #2a2727;
-      -webkit-box-shadow: 10px 10px 5px #322d2d;
-      -khtml-box-shadow: 10px 10px 5px #2f2c2c;
+      -moz-box-shadow: 10px 10px 5px #ffffff;
+      -webkit-box-shadow: 25px 20px 20px #2a2828;
+      -khtml-box-shadow: 10px 10px 5px #ffffff;
      
 }
 .ehead{
