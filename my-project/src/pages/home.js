@@ -2,10 +2,18 @@ import React from 'react';
 import MyFunctionalComponent from './slick';
 import 'bootstrap/dist/css/bootstrap.css';
 import { GoArrowDown } from "react-icons/go";
+import SimpleSlider from './Cardslick';
+
 
 
 const Home =()=>{
-
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
 
     return (
         <div className="Home">
@@ -45,6 +53,14 @@ const Home =()=>{
   <MyFunctionalComponent/>
 </div>
 
+
+ <div>
+  <SimpleSlider/>
+ </div>
+
+<div>
+  <h1>hello</h1>
+</div>
  
 </div>
 
