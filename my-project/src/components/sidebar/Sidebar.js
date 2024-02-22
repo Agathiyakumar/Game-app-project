@@ -7,7 +7,7 @@ import { SidebarData } from "./SidebarData";
 import { IconContext } from "react-icons/lib";
 import SubMenu from "./SubMenu";
 const Nav = styled.div`
-background-image: linear-gradient( white, grey);
+background-color:black;
 	height: 80px;
 	display: flex;
 	justify-content: flex-start;
@@ -26,7 +26,9 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
 	margin-top:140px;
-	background-image: linear-gradient( white, black);
+    background-image:url("https://e0.pxfuel.com/wallpapers/358/40/desktop-wallpaper-dark-background-dark-gaming.jpg");  
+	background-repeat: no-repeat;
+	background-size:cover;
 	width: 200px;
 	height: 100vh;
 	display: flex;
@@ -49,7 +51,7 @@ const Sidebar = () => {
 
 	return (
 		<>
-			<IconContext.Provider value={{ color: "black" }}>
+			<IconContext.Provider value={{ color: "white" }}>
 				<Nav>
 					<NavIcon to="#">
 						<FaIcons.FaBars
@@ -61,7 +63,7 @@ const Sidebar = () => {
 						style={{
 							textAlign: "center",
 							marginLeft: "210px",
-							color: "black",
+							color: "red",
 						}}
 					>
 						FUNSTATION GAMES

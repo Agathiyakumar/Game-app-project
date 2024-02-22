@@ -4,8 +4,8 @@ import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
  
 export const Nav = styled.nav`
-background-image: linear-gradient( grey, white);
-    height: 60px;
+background-color:black;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     padding: 0.2rem calc((100vw - 1000px) / 2);
@@ -15,7 +15,7 @@ background-image: linear-gradient( grey, white);
 `;
  
 export const NavLink = styled(Link)`
-    color: black;
+    color: red;
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -49,10 +49,7 @@ export const NavMenu = styled.div`
     flex-direction: row;
     align-items: center;
     margin-right: 0px;
-    @media screen {min-width: 380px;
-        flex-direction: row;
-        margin-right:0px;
-      }
+    
 `;
  
 export const Navbutton = styled.nav`
@@ -61,10 +58,7 @@ export const Navbutton = styled.nav`
     align-items: center;
     
    
-    @media screen {min-width: 380px;
-        flex-direction: row;
-      
-      }
+    
 `;
  
 export const NavbtnLink = styled(Link)`
@@ -73,7 +67,7 @@ flex-direction: row;
     border-radius: 10px;
     
     padding: 3px;
-    color:black;
+    color:red;
     outline: none;
     border: none;
     cursor: pointer;

@@ -20,7 +20,7 @@ export default function SimpleSlider() {
       <div className='centre'>
         <div className='slider'>
           
-            <Card>
+            <Card style={{backgroundColor:"black"}}>
             <h1 className='sliderhead'>--Only for You--</h1>
       <Slider {...settings} className='slider1'>
      

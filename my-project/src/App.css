@@ -1,11 +1,8 @@
 .Home{
 
-  background-color: #ffffff;
-  background-color: #ffffff;
-  background-color: #d9d5df;
-  background-color: #c3a9ea;
-  background-color: #d4cedd;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='%23a693c4' fill-opacity='0.18'%3E%3Cpath d='M12 0h18v6h6v6h6v18h-6v6h-6v6H12v-6H6v-6H0V12h6V6h6V0zm12 6h-6v6h-6v6H6v6h6v6h6v6h6v-6h6v-6h6v-6h-6v-6h-6V6zm-6 12h6v6h-6v-6zm24 24h6v6h-6v-6z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("../back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
   .welcome{
  
@@ -16,7 +13,7 @@
 .wel{
   font-size: 7vw;
   padding-left: 150px;
-  
+  color: white;
 }
 .wel::first-letter{
   color: #ff0000;
@@ -24,7 +21,8 @@
 }
 .wel1{
   padding-left: 100px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Segoe UI';
+  color: wheat;
 }
 
 .about{
@@ -714,22 +712,30 @@ text-align: center;
 
 .click{
 font-size: 2vw;
+color: red;
 }
 .mostex{
   text-align: right;
   padding-right: 60px;
-  
+  color: white;
 }
 .mostex1::first-letter{
   color: green;
-  font-family: Garamond, serif;
+  font-family: fantasy;
   font-size: 80px;
+  
 }
 .description1{
   text-align: right;
   padding-right: 60px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New';
   margin-top: 20px;
+  color: rgb(239, 222, 188);
+  
+}
+.description2{
+  
+  font-family: 'Segoe UI';
 }
 
 .parent {
@@ -755,13 +761,13 @@ font-size: 2vw;
      
 }
 .ehead{
-  
+  color: rgb(255, 217, 0);
   text-align: left;
   padding-left: 50px;
   padding-top: 50px;
 }
 .ehead::first-letter{
-  color: blue;
+  color: rgb(34, 255, 0);
   font-family: Garamond, serif;
   font-size: 80px;
 }
@@ -901,7 +907,7 @@ font-size: 2vw;
   
   width: 80%;
   height: 400px;
-  background-color: #464242;
+ 
   margin-top: 50px;
   padding-bottom: 500px;
 
@@ -912,10 +918,10 @@ font-size: 2vw;
 }
 .slider1{
   background-color: #000000;
-  width: 70%;
+  width: 90%;
   height: 400px;
-  
-  margin-left: 25px;
+  color: white;
+  margin-left: 48px;
   margin-bottom: 25px;
   border: 2px solid rgb(255, 0, 0);
   border-radius: 7px;
@@ -927,10 +933,12 @@ font-size: 2vw;
   padding: 10px;
 }
 .sliderhead{
+  margin-top: 15px;
   text-align: center;
-  color: rgb(0, 255, 195);
+  color: rgb(0, 255, 128);
 }
 .centre{
   margin-left: 300px;
   
 }
+

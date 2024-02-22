@@ -6,7 +6,7 @@ import styled from "styled-components";
 
 const SidebarLink = styled(Link)`
 	display: flex;
-	color: black;
+	color: red;
 	justify-content: space-between;
 	align-items: center;
 	padding: 25px;
@@ -21,7 +21,7 @@ const SidebarLink = styled(Link)`
 	&:hover {
 		background-image: linear-gradient(to right, black, white);
 		transform: scale(0.9);
-	
+		color:black;
 		border-radius:10px;
 	}
 `;

@@ -36,7 +36,7 @@ const Home =()=>{
 <div className="description">
   <p className="description1" data-aos="fade-left"
     data-aos-easing="linear"
-    data-aos-duration="800"><h4>"Dive into a gaming haven at Funstation Games, where every click unlocks a <br></br>world of reviews, news, and exclusive insights. Immerse yourself in captivating <br></br>feature stories and join a vibrant community of like-minded gamers.</h4></p>
+    data-aos-duration="800"><h3 className='description2'>"Dive into a gaming haven at Funstation Games, where every click unlocks a <br></br>world of reviews, news, and exclusive insights. Immerse yourself in captivating <br></br>feature stories and join a vibrant community of like-minded gamers.</h3></p>
 </div>
 <div>
     <h1 className="ehead">Esports</h1>
