@@ -13,7 +13,7 @@ export default function MyFunctionalComponent() {
     data-aos-easing="linear"
     data-aos-duration="800">
 <h1 className="esporthead">
-   >>>  Join the Esport's  >>>
+   -- Join the Esport's !!!
   </h1>
   <h5 className="esporthead1"> Join our game website for a thrilling gaming experience, featuring competitive leagues, engaging tournaments, and a vibrant community. Level up your skills and connect with fellow gamers on our platform today!"</h5>
   <div className="esport">

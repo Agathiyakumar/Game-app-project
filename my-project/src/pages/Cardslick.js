@@ -45,7 +45,7 @@ export default function SimpleSlider() {
         <div>
           <h3>Hunt down the games to unclock more games</h3>
           <div className='slideimg1'>
-          <img  src="https://images.squarespace-cdn.com/content/v1/573ca4a22eeb816348280410/1532036147723-0F3XB5T0QRX5JMKP25OA/DSC_0570.JPG" alt='' width="100%"/> 
+          <img src="https://images.squarespace-cdn.com/content/v1/573ca4a22eeb816348280410/1532036147723-0F3XB5T0QRX5JMKP25OA/DSC_0570.JPG" alt='' width="100%"/> 
           </div>
         </div>
         <div>
