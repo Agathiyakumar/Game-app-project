@@ -36,7 +36,7 @@ const Online=()=> {
         <span></span>
         <div class="content">
           <h2>Uncharter-4</h2>
-          <p>Uncharter-4 is Treasure Hunt Game.It allows multiplayer upto ten players to engage on competitive gameplay in recreation of single player settings.</p>
+          <p>Uncharter-4 is Treasure Hunt Game.It allows multiplayer upto ten players to engage on competitive gameplay.</p>
           <button onClick={navuncharter} className="btn12">Read More</button>
         </div>
       </div>

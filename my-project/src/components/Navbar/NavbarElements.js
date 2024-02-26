@@ -23,7 +23,7 @@ export const NavLink = styled(Link)`
     padding: 3px ;
     height: 100%;
     cursor: pointer;
-    margin-right:40px;
+    margin-right:150px;
     &.active{
         color:white;
        background-color:black
@@ -34,6 +34,10 @@ export const NavLink = styled(Link)`
         color:white;
         transition: 400ms ease-in;
     }
+    @media(max-width:980px){
+       margin-right:30px;
+        
+      }
    
 `;
  
@@ -77,7 +81,13 @@ flex-direction: row;
     margin-left: 24px;
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: black;
+        background: green;
         color:white;
     }
+    @media(max-width:980px){
+       
+          margin-left: 0px;
+         
+        }
+      
 `;

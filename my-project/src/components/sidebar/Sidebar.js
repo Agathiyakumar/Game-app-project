@@ -34,8 +34,8 @@ const SidebarNav = styled.nav`
 	display: flex;
 	justify-content: center;
 	position:absolute;
-	position: fixed;
-	top: 0;
+	
+	margin-top: 1px;
 	left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
 	transition: 550ms;
 	z-index: 10;
@@ -62,8 +62,10 @@ const Sidebar = () => {
 					<h1
 						style={{
 							textAlign: "center",
-							marginLeft: "210px",
+							marginLeft: "130px",
 							color: "red",
+							
+							  
 						}}
 					>
 						FUNSTATION GAMES

@@ -12,8 +12,9 @@ export const Box = styled.div`
 	
     align-items:bottom;
 	@media (max-width: 1000px) {
-		// padding: 70px 30px;
+		padding: 10px 60px;
 	}
+
 `;
 
 export const FooterContainer = styled.div`

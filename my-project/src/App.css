@@ -1,8 +1,10 @@
+
 .Home{
 
   background-image: url("../back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
   .welcome{
  
@@ -193,6 +195,11 @@
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
+@media(max-width:980px){
+  .abtcontent{
+    font-size: 17px;
+  }
+}
 
 
 
@@ -352,7 +359,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding: 10px 50px;
   margin-top: 50px;
 }
 
@@ -364,8 +371,14 @@ text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 30px;
+ padding: 30px;
   transition: 0.5s;
+}
+@media(max-width:980px){
+  .container .box{
+    font-size: 10px;
+    padding: 50px 0px;
+  }
 }
 
 .container .box::before
@@ -986,14 +999,16 @@ color: red;
   width: 90%;
   height: 400px;
   color: white;
-  
+  margin-left: 40px;
   border: 2px solid rgb(255, 0, 0);
   border-radius: 7px;
+  margin-bottom: 5px;
 }
 @media(max-width:980px){
   .slider1{
     width: 100%;
     height:310px;
+    margin-left:0px;
   }
   
 }
