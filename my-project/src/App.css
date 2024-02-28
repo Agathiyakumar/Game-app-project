@@ -1,4 +1,3 @@
-
 .Home{
 
   background-image: url("../back.jpg");
@@ -1039,4 +1038,55 @@ color: red;
     margin-left: 2px;
     padding: 20px;
   }
+}
+
+
+/* offline */
+
+.page-wrapper {
+  padding: 10px;
+  display: flex;
+ 
+  -webkit-display: flex;
+  justify-content: space-around;
+}
+
+
+.card-wrapper {
+ 
+  background: rgb(173, 144, 144);   
+  padding: 15px;
+  border-radius: 6px;
+  max-height: 168px;
+  overflow: hidden;
+  
+  width: 300%;  
+  transition: max-height 500ms ease-in-out;
+ 
+  margin: 20px;
+  &:hover {
+    box-shadow: 0 0 8px #d3d3d3;    
+    cursor: pointer;
+    max-height: 300px;
+    
+  }
+}
+.card-title{
+  text-align: center;
+  padding-bottom: 25px;
+}
+.card-details,
+.reveal-details {
+  font-weight: 300;
+  
+}
+
+
+
+.card-height-animate {
+  height: 300px; 
+}
+.offline{
+  display: flex;
+  width: 100%;
 }

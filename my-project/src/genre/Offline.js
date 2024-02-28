@@ -1,47 +1,75 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-const Offline=()=> {
-    const navigate=useNavigate();
-    const  navpubg=()=>{
-        navigate('/onlinegame/pubg');
-    };
-    const  navgod=()=>{
-      navigate('/onlinegame/godofwars');
-  };
-  const  navuncharter=()=>{
-    navigate('/onlinegame/uncharter');
-};
+const Offline=()=>{
     return (
       
-      
-<div className="online">
-      <div class="container">
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>PUBG</h2>
-          <p>Pubg Battle Ground is a global version of a battle field game . Which allows the playeers from different servers to connect in a single game.</p>
-          <button onClick={navpubg} className="btn12">Read More</button>
-        </div>
+      <div className="offline">
+
+<div class="page-wrapper">  
+
+    <div class="card-wrapper">
+      <div class="card-details">
+        <h3 class="card-title">Game #1</h3>
+        <p>Some content regarding the first card will go here</p>
       </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>God Of Wars</h2>
-          <p>God of Wars is pc and Playstation game. In which the main charcter is a God Butcher . The is based on the greek Myth gods and their Powers.</p>
-          <button onClick={navgod} className="btn12">Read More</button>
-        </div>
-      </div>
-      <div class="box">
-        <span></span>
-        <div class="content">
-          <h2>Uncharter-4</h2>
-          <p>Uncharter-4 is Treasure Hunt Game.It allows multiplayer upto ten players to engage on competitive gameplay in recreation of single player settings.</p>
-          <button onClick={navuncharter} className="btn12">Read More</button>
-        </div>
+    
+      <div class="reveal-details">
+        <p>Extra content that will help along the way</p>
       </div>
     </div>
 </div>
+<div class="page-wrapper">  
+    <div class="card-wrapper">
+      <div class="card-details">
+        <h3 class="card-title">Game #2</h3>
+        <p>Some content regarding the first card will go here</p>
+      </div>
+      
+      <div class="reveal-details">
+        <p>Extra content that will help along the way</p>
+      </div>
+    </div>
+</div>
+<div class="page-wrapper">  
+    <div class="card-wrapper">
+      <div class="card-details">
+        <h3 class="card-title">Game #3</h3>
+        <p>Some content regarding the first card will go here</p>
+      </div>
+      
+      <div class="reveal-details">
+        <p>Extra content that will help along the way</p>
+      </div>
+    </div>
+</div>
+<div class="page-wrapper">  
+    <div class="card-wrapper">
+      <div class="card-details">
+        <h3 class="card-title">Game #4</h3>
+        <p>Some content regarding the first card will go here</p>
+      </div>
+      
+      <div class="reveal-details">
+        <p>Extra content that will help along the way</p>
+      </div>
+    </div>
+</div>
+<div class="page-wrapper">  
+    <div class="card-wrapper">
+      <div class="card-details">
+        <h3 class="card-title">Game #5</h3>
+        <p>Some content regarding the first card will go here</p>
+      </div>
+      
+      <div class="reveal-details">
+        <p>Extra content that will help along the way</p>
+      </div>
+    </div>
+    </div>
+
+   <iframe src="https://youtube.com/embed/QdBZY2fkU-0?si=Cu_3gG7H1w5Igy35" allowFullScreen></iframe>
+  
+ </div>
+
       );
     };
 
